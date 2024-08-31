@@ -14,5 +14,6 @@ teardown_file() {
 # Basic tests
 # ============================================================================
 @test "Do some tests" {
+	run echo "OK"
 	assert_success
 }
